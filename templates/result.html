@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🔍 Prediction Result</h2>
+
+    <img src="/{{ image_path }}" class="preview">
+
+    <h3>Predicted Car: <span class="highlight">{{ predicted }}</span></h3>
+    <p>Confidence: {{ confidence }}%</p>
+
+    <a class="btn" href="/upload">Try Another Image</a>
+    <br><br>
+    <a class="back" href="/">⬅ Back to Home</a>
+</div>
+
+</body>
+</html>
